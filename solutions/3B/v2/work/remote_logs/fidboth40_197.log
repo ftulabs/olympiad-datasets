@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/home/minh/olympiad_offload/3B_v2/cv.py", line 39, in <module>
+    model, _ = train_model(model, bt, np.arange(len(y)), a.epochs, lr=a.lr, wd=a.wd, bs=a.bs, seed=a.seed, ls=a.ls,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_offload/3B_v2/lib2.py", line 187, in train_model
+    loss = F.binary_cross_entropy_with_logits(model(b), yy)
+                                              ^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_offload/3B_v2/lib2.py", line 164, in forward
+    u = self.phi(z).view(n, 4, -1)
+        ^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 2.94 GiB of which 640.00 KiB is free. Process 3217440 has 1.66 GiB memory in use. Process 3238572 has 505.38 MiB memory in use. Process 3238595 has 506.38 MiB memory in use. Including non-PyTorch memory, this process has 289.38 MiB memory in use. Of the allocated memory 196.22 MiB is allocated by PyTorch, and 29.78 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

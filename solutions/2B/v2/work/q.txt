@@ -1,0 +1,6 @@
+tiny24 40 1
+r18 30 1 bs=32
+tiny24 40 1 pl=pl_c1_fFOLD.npz tag=tiny24plc1_s1
+r18 20 2 bs=32 pl=pl_c2_fFOLD.npz tag=r18plc2_s2
+r18 30 3 bs=32 res=112 tag=r18r112_s3
+r18 30 4 bs=32 tag=r18_e30_s4

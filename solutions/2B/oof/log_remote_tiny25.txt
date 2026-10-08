@@ -1,0 +1,131 @@
+ep0 loss=1.679 11s
+ep1 loss=1.357 11s
+ep2 loss=1.237 11s va F1=0.4182
+ep3 loss=1.179 11s
+ep4 loss=1.117 11s
+ep5 loss=1.023 11s va F1=0.6580
+ep6 loss=0.894 11s
+ep7 loss=0.846 11s
+ep8 loss=0.811 11s va F1=0.7482
+ep9 loss=0.762 11s
+ep10 loss=0.732 11s
+ep11 loss=0.719 11s va F1=0.7563
+ep12 loss=0.706 11s
+ep13 loss=0.685 11s
+ep14 loss=0.661 11s va F1=0.7886
+ep15 loss=0.662 11s
+ep16 loss=0.649 11s
+ep17 loss=0.636 11s va F1=0.7824
+ep18 loss=0.622 11s
+ep19 loss=0.604 11s
+ep20 loss=0.601 11s va F1=0.7930
+ep21 loss=0.592 11s
+ep22 loss=0.591 11s
+ep23 loss=0.585 11s va F1=0.7857
+ep24 loss=0.580 11s va F1=0.7857
+fold0 F1 TTA=0.8009
+ep0 loss=1.584 12s
+ep1 loss=1.331 12s
+ep2 loss=1.239 11s va F1=0.4676
+ep3 loss=1.169 11s
+ep4 loss=1.130 11s
+ep5 loss=1.063 11s va F1=0.6330
+ep6 loss=0.982 11s
+ep7 loss=0.897 11s
+ep8 loss=0.825 11s va F1=0.7387
+ep9 loss=0.780 11s
+ep10 loss=0.772 11s
+ep11 loss=0.730 11s va F1=0.7878
+ep12 loss=0.733 11s
+ep13 loss=0.706 11s
+ep14 loss=0.685 11s va F1=0.8000
+ep15 loss=0.671 11s
+ep16 loss=0.668 12s
+ep17 loss=0.647 11s va F1=0.8286
+ep18 loss=0.646 11s
+ep19 loss=0.623 11s
+ep20 loss=0.623 11s va F1=0.8283
+ep21 loss=0.611 11s
+ep22 loss=0.611 11s
+ep23 loss=0.606 11s va F1=0.8253
+ep24 loss=0.607 11s va F1=0.8320
+fold1 F1 TTA=0.8396
+ep0 loss=1.528 11s
+ep1 loss=1.340 11s
+ep2 loss=1.241 11s va F1=0.4856
+ep3 loss=1.181 11s
+ep4 loss=1.057 11s
+ep5 loss=0.946 11s va F1=0.7269
+ep6 loss=0.877 11s
+ep7 loss=0.846 11s
+ep8 loss=0.813 11s va F1=0.7031
+ep9 loss=0.764 11s
+ep10 loss=0.739 11s
+ep11 loss=0.737 10s va F1=0.7862
+ep12 loss=0.703 10s
+ep13 loss=0.704 10s
+ep14 loss=0.694 11s va F1=0.7554
+ep15 loss=0.684 11s
+ep16 loss=0.667 11s
+ep17 loss=0.641 10s va F1=0.8142
+ep18 loss=0.647 11s
+ep19 loss=0.631 11s
+ep20 loss=0.619 11s va F1=0.8335
+ep21 loss=0.610 11s
+ep22 loss=0.611 11s
+ep23 loss=0.607 11s va F1=0.8202
+ep24 loss=0.601 11s va F1=0.8208
+fold2 F1 TTA=0.8334
+ep0 loss=1.538 11s
+ep1 loss=1.333 12s
+ep2 loss=1.247 12s va F1=0.4485
+ep3 loss=1.188 11s
+ep4 loss=1.137 11s
+ep5 loss=1.000 11s va F1=0.6441
+ep6 loss=0.888 11s
+ep7 loss=0.843 11s
+ep8 loss=0.810 11s va F1=0.7141
+ep9 loss=0.781 12s
+ep10 loss=0.766 12s
+ep11 loss=0.735 12s va F1=0.7425
+ep12 loss=0.724 11s
+ep13 loss=0.702 11s
+ep14 loss=0.696 11s va F1=0.7803
+ep15 loss=0.673 11s
+ep16 loss=0.658 11s
+ep17 loss=0.647 10s va F1=0.7966
+ep18 loss=0.634 11s
+ep19 loss=0.630 10s
+ep20 loss=0.626 10s va F1=0.8079
+ep21 loss=0.608 10s
+ep22 loss=0.607 11s
+ep23 loss=0.600 11s va F1=0.8110
+ep24 loss=0.601 10s va F1=0.8157
+fold3 F1 TTA=0.8193
+ep0 loss=1.523 10s
+ep1 loss=1.304 10s
+ep2 loss=1.223 10s va F1=0.4998
+ep3 loss=1.161 10s
+ep4 loss=1.091 10s
+ep5 loss=0.973 10s va F1=0.7078
+ep6 loss=0.881 10s
+ep7 loss=0.834 10s
+ep8 loss=0.790 10s va F1=0.7299
+ep9 loss=0.783 10s
+ep10 loss=0.755 10s
+ep11 loss=0.727 10s va F1=0.8066
+ep12 loss=0.714 10s
+ep13 loss=0.696 10s
+ep14 loss=0.684 10s va F1=0.7931
+ep15 loss=0.667 10s
+ep16 loss=0.655 10s
+ep17 loss=0.632 10s va F1=0.7812
+ep18 loss=0.632 10s
+ep19 loss=0.621 10s
+ep20 loss=0.616 10s va F1=0.8128
+ep21 loss=0.598 10s
+ep22 loss=0.598 10s
+ep23 loss=0.602 10s va F1=0.8196
+ep24 loss=0.600 10s va F1=0.8187
+fold4 F1 TTA=0.8299
+OOF F1 0.8247250754148243

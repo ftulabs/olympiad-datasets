@@ -1,0 +1,16 @@
+fold 2 train 17118 val 22882 nnew [ 5818 14072  2812   180] newscaf 6065
+Traceback (most recent call last):
+  File "/home/minh/olympiad_offload/3B_v2/cv.py", line 29, in <module>
+    model, hist = train_model(model, bt, tri, a.epochs, lr=a.lr, wd=a.wd, bs=a.bs, seed=a.seed,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_offload/3B_v2/lib2.py", line 188, in train_model
+    opt.zero_grad(); loss.backward(); nn.utils.clip_grad_norm_(model.parameters(), 5.0)
+                     ^^^^^^^^^^^^^^^
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/minh/olympiad_env/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 14.00 MiB. GPU 0 has a total capacity of 2.94 GiB of which 13.62 MiB is free. Process 3217440 has 1.66 GiB memory in use. Process 3237154 has 549.38 MiB memory in use. Including non-PyTorch memory, this process has 511.38 MiB memory in use. Process 3238440 has 227.38 MiB memory in use. Of the allocated memory 367.11 MiB is allocated by PyTorch, and 72.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,1 @@
+Terminated                 $P cv.py --tag $tag $args > logs/${tag}_$j.log 2>&1

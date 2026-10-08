@@ -1,0 +1,3 @@
+fold 1 train 17273 val 22727 nnew [ 5810 13991  2757   169] newscaf 6047
+  ep 1/15 loss 0.3327 (8s)
+  ep 2/15 loss 0.2202 (8s)
